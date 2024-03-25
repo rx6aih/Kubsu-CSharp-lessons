@@ -740,11 +740,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\c#\\Web\\AspEdu\\Kub-c#\\Kub-c#.csproj",
+      "projectUniqueName": "C:\\c#\\WindowsForms\\Kub-c#\\Kub-c#.csproj",
       "projectName": "Kub-c#",
-      "projectPath": "C:\\c#\\Web\\AspEdu\\Kub-c#\\Kub-c#.csproj",
+      "projectPath": "C:\\c#\\WindowsForms\\Kub-c#\\Kub-c#.csproj",
       "packagesPath": "C:\\Users\\пк\\.nuget\\packages\\",
-      "outputPath": "C:\\c#\\Web\\AspEdu\\Kub-c#\\obj\\",
+      "outputPath": "C:\\c#\\WindowsForms\\Kub-c#\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\пк\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -761,8 +761,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\c#\\Web\\AspEdu\\Kub-c#.DAL\\Kub-c#.DAL.csproj": {
-              "projectPath": "C:\\c#\\Web\\AspEdu\\Kub-c#.DAL\\Kub-c#.DAL.csproj"
+            "C:\\c#\\WindowsForms\\Kub-c#.DAL\\Kub-c#.DAL.csproj": {
+              "projectPath": "C:\\c#\\WindowsForms\\Kub-c#.DAL\\Kub-c#.DAL.csproj"
             }
           }
         }

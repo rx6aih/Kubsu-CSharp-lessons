@@ -10,3 +10,15 @@ C:\c#\Web\AspEdu\Kub-c#.DAL\obj\Debug\net8.0\Kub-c#.DAL.dll
 C:\c#\Web\AspEdu\Kub-c#.DAL\obj\Debug\net8.0\refint\Kub-c#.DAL.dll
 C:\c#\Web\AspEdu\Kub-c#.DAL\obj\Debug\net8.0\Kub-c#.DAL.pdb
 C:\c#\Web\AspEdu\Kub-c#.DAL\obj\Debug\net8.0\ref\Kub-c#.DAL.dll
+C:\c#\WindowsForms\Kub-c#.DAL\bin\Debug\net8.0\Kub-c#.DAL.deps.json
+C:\c#\WindowsForms\Kub-c#.DAL\bin\Debug\net8.0\Kub-c#.DAL.dll
+C:\c#\WindowsForms\Kub-c#.DAL\bin\Debug\net8.0\Kub-c#.DAL.pdb
+C:\c#\WindowsForms\Kub-c#.DAL\obj\Debug\net8.0\Kub-c#.DAL.csproj.AssemblyReference.cache
+C:\c#\WindowsForms\Kub-c#.DAL\obj\Debug\net8.0\Kub-c#.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\c#\WindowsForms\Kub-c#.DAL\obj\Debug\net8.0\Kub-c#.DAL.AssemblyInfoInputs.cache
+C:\c#\WindowsForms\Kub-c#.DAL\obj\Debug\net8.0\Kub-c#.DAL.AssemblyInfo.cs
+C:\c#\WindowsForms\Kub-c#.DAL\obj\Debug\net8.0\Kub-c#.DAL.csproj.CoreCompileInputs.cache
+C:\c#\WindowsForms\Kub-c#.DAL\obj\Debug\net8.0\Kub-c#.DAL.dll
+C:\c#\WindowsForms\Kub-c#.DAL\obj\Debug\net8.0\refint\Kub-c#.DAL.dll
+C:\c#\WindowsForms\Kub-c#.DAL\obj\Debug\net8.0\Kub-c#.DAL.pdb
+C:\c#\WindowsForms\Kub-c#.DAL\obj\Debug\net8.0\ref\Kub-c#.DAL.dll

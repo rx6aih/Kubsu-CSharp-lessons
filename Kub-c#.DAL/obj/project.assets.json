@@ -720,11 +720,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\c#\\Web\\AspEdu\\Kub-c#.DAL\\Kub-c#.DAL.csproj",
+      "projectUniqueName": "C:\\c#\\WindowsForms\\Kub-c#.DAL\\Kub-c#.DAL.csproj",
       "projectName": "Kub-c#.DAL",
-      "projectPath": "C:\\c#\\Web\\AspEdu\\Kub-c#.DAL\\Kub-c#.DAL.csproj",
+      "projectPath": "C:\\c#\\WindowsForms\\Kub-c#.DAL\\Kub-c#.DAL.csproj",
       "packagesPath": "C:\\Users\\пк\\.nuget\\packages\\",
-      "outputPath": "C:\\c#\\Web\\AspEdu\\Kub-c#.DAL\\obj\\",
+      "outputPath": "C:\\c#\\WindowsForms\\Kub-c#.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\пк\\AppData\\Roaming\\NuGet\\NuGet.Config",

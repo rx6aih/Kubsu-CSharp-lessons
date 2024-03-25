@@ -56,7 +56,10 @@ namespace Kub_c_
 
         private void изменитьToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //TODO
+            int id = (int)dataGridView1.CurrentRow.Cells["ID"].Value;
+            ProductUpdate pu = new ProductUpdate(id);
+            pu.ShowDialog(); 
+            Update();
         }
     }
 }

@@ -30,12 +30,13 @@
         {
             menuStrip1 = new MenuStrip();
             продуктыToolStripMenuItem = new ToolStripMenuItem();
+            клиентыToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { продуктыToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { продуктыToolStripMenuItem, клиентыToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(525, 24);
@@ -48,6 +49,12 @@
             продуктыToolStripMenuItem.Size = new Size(74, 20);
             продуктыToolStripMenuItem.Text = "Продукты";
             продуктыToolStripMenuItem.Click += продуктыToolStripMenuItem_Click;
+            // 
+            // клиентыToolStripMenuItem
+            // 
+            клиентыToolStripMenuItem.Name = "клиентыToolStripMenuItem";
+            клиентыToolStripMenuItem.Size = new Size(67, 20);
+            клиентыToolStripMenuItem.Text = "Клиенты";
             // 
             // Form1
             // 
@@ -69,5 +76,6 @@
 
         private MenuStrip menuStrip1;
         private ToolStripMenuItem продуктыToolStripMenuItem;
+        private ToolStripMenuItem клиентыToolStripMenuItem;
     }
 }

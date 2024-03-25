@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o/DSRML9Qpf+6vELw96IwxkMFFa5A0GlG9+Ey7HwwBGBV5IpO3Zd0PJohfZihhtv64VtZOYSt1vBAt5yFFiYUQ==",
+  "dgSpecHash": "hj59AUdDlFjZMavap0arqSe4BlPNtC6fTB80sq3cjzZ/AeIhgoatzdZm9Q18CfnmdmrRxjg1PdXM3JrdLobIEQ==",
   "success": true,
-  "projectFilePath": "C:\\c#\\Web\\AspEdu\\Kub-c#.DAL\\Kub-c#.DAL.csproj",
+  "projectFilePath": "C:\\c#\\WindowsForms\\Kub-c#.DAL\\Kub-c#.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\пк\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.3\\microsoft.entityframeworkcore.8.0.3.nupkg.sha512",
     "C:\\Users\\пк\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.3\\microsoft.entityframeworkcore.abstractions.8.0.3.nupkg.sha512",
