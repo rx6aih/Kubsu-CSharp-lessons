@@ -15,51 +15,56 @@ using System.Windows.Forms;
 
 namespace Kub_c_
 {
-    public partial class ProductsForm : Form
-    {
-        DataTable dt = new DataTable();
-        DataSet ds = new DataSet();
-        EFUnitOfWork UoW = new EFUnitOfWork();
-        public ProductsForm()
-        {
-            StartPosition = FormStartPosition.CenterParent;
-            InitializeComponent();
-            Update();
-        }
+	public partial class ProductsForm : Form
+	{
+		DataTable dt = new DataTable();
+		DataSet ds = new DataSet();
+		EFUnitOfWork UoW = new EFUnitOfWork();
+		public ProductsForm()
+		{
+			StartPosition = FormStartPosition.CenterParent;
+			InitializeComponent();
+			Update();
+		}
 
-        public void Update()
-        {
-            NpgsqlDataAdapter da = new NpgsqlDataAdapter();
-            List<Product> products = UoW.Products.GetAll().ToList();
-            dataGridView1.DataSource = products;
+		public void Update()
+		{
+			NpgsqlDataAdapter da = new NpgsqlDataAdapter();
+			List<Product> products = UoW.Products.GetAll().ToList();
+			dataGridView1.DataSource = products;
 
-        }
+		}
 
-        private void добавитьToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ProductAdd pd = new ProductAdd();
-            pd.ShowDialog();
-            Update();
-        }
+		private void добавитьToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			ProductAdd pd = new ProductAdd();
+			pd.ShowDialog();
+			Update();
+		}
 
-        private void удалитьToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            int id = (int)dataGridView1.CurrentRow.Cells["ID"].Value;
-            DialogResult dr = MessageBox.Show("Удаление", "Вы уверены?", MessageBoxButtons.YesNo);
-            if (dr == DialogResult.Yes)
-            {
-                UoW.Products.Delete(id);
-                UoW.Save();
-                Update();
-            }
-        }
+		private void удалитьToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			int id = (int)dataGridView1.CurrentRow.Cells["ID"].Value;
+			DialogResult dr = MessageBox.Show("Удаление", "Вы уверены?", MessageBoxButtons.YesNo);
+			if (dr == DialogResult.Yes)
+			{
+				UoW.Products.Delete(id);
+				UoW.Save();
+				Update();
+			}
+		}
 
-        private void изменитьToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            int id = (int)dataGridView1.CurrentRow.Cells["ID"].Value;
-            ProductUpdate pu = new ProductUpdate(id);
-            pu.ShowDialog(); 
-            Update();
-        }
-    }
+		private void изменитьToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			int id = (int)dataGridView1.CurrentRow.Cells["ID"].Value;
+			ProductUpdate pu = new ProductUpdate(id);
+			pu.ShowDialog();
+			Update();
+		}
+
+		private void выходToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			Close();
+		}
+	}
 }

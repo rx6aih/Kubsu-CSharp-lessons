@@ -1,4 +1,5 @@
 
+using Kub_c_.ClientForms;
 using Kub_c_.DAL.Repositories;
 
 namespace Kub_c_
@@ -16,5 +17,10 @@ namespace Kub_c_
             ProductsForm pf = new ProductsForm();
             pf.ShowDialog();
         }
-    }
+		private void êëèåíòûToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			ClientsForm cf = new ClientsForm();
+			cf.ShowDialog();
+		}
+	}
 }

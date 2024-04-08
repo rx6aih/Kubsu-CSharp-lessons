@@ -55,6 +55,7 @@
             клиентыToolStripMenuItem.Name = "клиентыToolStripMenuItem";
             клиентыToolStripMenuItem.Size = new Size(67, 20);
             клиентыToolStripMenuItem.Text = "Клиенты";
+			клиентыToolStripMenuItem.Click += клиентыToolStripMenuItem_Click;
             // 
             // Form1
             // 
@@ -72,9 +73,14 @@
             PerformLayout();
         }
 
-        #endregion
+		private void КлиентыToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			throw new NotImplementedException();
+		}
 
-        private MenuStrip menuStrip1;
+		#endregion
+
+		private MenuStrip menuStrip1;
         private ToolStripMenuItem продуктыToolStripMenuItem;
         private ToolStripMenuItem клиентыToolStripMenuItem;
     }

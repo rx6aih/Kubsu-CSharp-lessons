@@ -28,7 +28,7 @@ namespace Kub_c_.ProductForms
         {
             try
             {
-                UoW.Products.Get(id).Name = tb_Name.Text;
+                UoW.Clients.Get(id).Name = tb_Name.Text;
                 UoW.Products.Get(id).Ed = tb_Ed.Text;
                 UoW.Save();
                 
