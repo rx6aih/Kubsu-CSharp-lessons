@@ -13,6 +13,15 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Futura\FuturaAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Futura\FuturaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Futura\FuturaInfoAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ProductForms\ProductAdd.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -12,7 +12,6 @@ namespace Kub_c_.DAL
     {
         public Context()
         {
-            Database.EnsureDeleted();
             Database.EnsureCreated();
         }
 

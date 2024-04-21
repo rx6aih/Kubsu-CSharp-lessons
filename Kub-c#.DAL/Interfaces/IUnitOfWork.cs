@@ -12,5 +12,9 @@ namespace Kub_c_.DAL.Interfaces
         IRepository<Client> Clients { get; }
 
         IRepository<Product> Products {  get; }
+        
+        IRepository<Futura> Futuras { get; }
+
+        IRepository<FuturaInfo> FuturasInfo { get; }
     }
 }

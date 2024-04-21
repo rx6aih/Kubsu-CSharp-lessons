@@ -13,6 +13,8 @@ namespace Kub_c_.DAL.Repositories
         private Context db;
         private ClientRepository clientRepository;
         private ProductRepository productRepository;
+        private FuturaRepository futuraRepository;
+        private FuturasInfoRepository futurasInfoRepository;
 
         public EFUnitOfWork()
         {
@@ -36,6 +38,26 @@ namespace Kub_c_.DAL.Repositories
                 if (productRepository == null)
                     productRepository = new ProductRepository(db);
                 return productRepository;
+            }
+        }
+
+        public IRepository<Futura> Futuras
+        {
+            get
+            {
+                if(futuraRepository == null)
+					futuraRepository = new FuturaRepository(db);
+                return futuraRepository;
+            }
+        }
+
+        public IRepository<FuturaInfo> FuturasInfo
+        {
+            get
+            {
+                if(futurasInfoRepository == null)
+                    futurasInfoRepository = new FuturasInfoRepository(db);
+                return futurasInfoRepository;
             }
         }
 

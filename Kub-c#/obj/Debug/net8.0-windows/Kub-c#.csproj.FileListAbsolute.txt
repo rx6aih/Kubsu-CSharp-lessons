@@ -74,3 +74,6 @@ C:\c#\WindowsForms\Kub-c#\obj\Debug\net8.0-windows\Kub-c#.genruntimeconfig.cache
 C:\c#\WindowsForms\Kub-c#\obj\Debug\net8.0-windows\ref\Kub-c#.dll
 C:\c#\WindowsForms\Kub-c#\obj\Debug\net8.0-windows\Kub_c_.ClientForms.ClientAdd.resources
 C:\c#\WindowsForms\Kub-c#\obj\Debug\net8.0-windows\Kub_c_.ClientForms.ClientUpdate.resources
+C:\c#\WindowsForms\Kub-c#\obj\Debug\net8.0-windows\Kub_c_.Futura.FuturaAdd.resources
+C:\c#\WindowsForms\Kub-c#\obj\Debug\net8.0-windows\Kub_c_.Futura.FuturaForm.resources
+C:\c#\WindowsForms\Kub-c#\obj\Debug\net8.0-windows\Kub_c_.Futura.FuturaInfoAdd.resources
